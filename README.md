@@ -1,0 +1,2 @@
+docker run -d --name redis -p 6379:6379 -v /data02/redis:/data redis --requirepass Robotics9
+docker run -d --name eth -p 8545:8545 -p 30303:30303 -v /data02/eth:/root/.ethereum ethereum/client-go:alpine
